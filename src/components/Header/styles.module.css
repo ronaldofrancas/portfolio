@@ -24,20 +24,14 @@
   align-items: center;
   justify-content: space-between;
 
-  width: 50%;
+  width: 40%;
 }
 
 .navigation > a:hover {
   text-decoration: underline;
 }
 
-.contact {
-  background-color: var(--color-primary);
-  border-radius: 10px;
-  padding: 1.5rem;
-}
-
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 425px) {
   .header {
     flex-direction: column;
     gap: 4rem;
@@ -46,13 +40,20 @@
   .navigation {
     width: 100%;
   }
+}
 
-  .contact {
-    width: 100%;
+@media (max-width: 320px) {
+  .header {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .navigation {
+    width: 110%;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 426px) {
   .profile > span {
     display: none;
   }

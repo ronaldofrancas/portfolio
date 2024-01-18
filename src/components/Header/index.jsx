@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import profile from "../../assets/imgs/profile.png";
+import Button from "../Button";
 
 function Header() {
   return (
@@ -10,14 +11,14 @@ function Header() {
       </div>
 
       <div className={styles.navigation}>
-        <a href="#aboutMeSection">Sobre Mim</a>
-        <a href="#techsSection">Tecnologias</a>
-        <a href="#projectsSection">Meus Projetos</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#techs">Tecnologias</a>
+        <a href="#projects">Meus Projetos</a>
       </div>
 
-      <button className={styles.contact}>
+      <Button>
         <a href="#footer">Contatos</a>
-      </button>
+      </Button>
     </header>
   );
 }
