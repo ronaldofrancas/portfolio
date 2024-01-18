@@ -1,12 +1,9 @@
 import styles from "./styles.module.css";
-import html from "../../../assets/icons/html.png"
 
-function TechCard() {
+export const TechCard = ({ img, alt }) => {
   return (
     <li className={styles.card}>
-      <img src={html} alt="HTML5" />
+      <img src={img} alt={alt} />
     </li>
   );
 }
-
-export default TechCard;

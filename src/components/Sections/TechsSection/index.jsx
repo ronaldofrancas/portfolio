@@ -3,7 +3,7 @@ import TechList from "../../List/TechList";
 
 function TechsSection() {
   return (
-    <section className={styles.section}>
+    <section id="techs" className={styles.section}>
       <div>
         <h2>Tecnologias</h2>
         <TechList />

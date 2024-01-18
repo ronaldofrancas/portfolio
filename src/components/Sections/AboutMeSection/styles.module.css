@@ -1,7 +1,7 @@
 .section {
   width: 100%;
   display: flex;
-  background-color: var(--color-link);
+  background-color: var(--color-primary-hover);
 }
 
 .about {
@@ -21,6 +21,12 @@
   gap: 2rem;
 }
 
+.container_left > h2,
+.container_left > button > a,
+.container_right > p {
+  color: var(--color-black);
+}
+
 .container_right {
   display: flex;
   align-items: center;
@@ -31,18 +37,10 @@
   width: 50%;
 }
 
-.container_left > h2,
-.container_right > p {
-  color: var(--color-black);
-}
-
-.container_left > button > a {
-  color: var(--color-black);
-}
-
 @media (min-width: 320px) and (max-width: 425px) {
   .about {
     flex-direction: column;
+    margin-top: -4rem;
     gap: 5rem;
   }
 

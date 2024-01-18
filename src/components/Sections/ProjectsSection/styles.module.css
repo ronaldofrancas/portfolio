@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  width: 100%;
+  background-color: #1f1629;
+}
+
+.section > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 6rem;
+  width: 100%;
+  padding: 8rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .section > div {
+    margin-top: -4rem;
+    gap: 5rem;
+  }
+}

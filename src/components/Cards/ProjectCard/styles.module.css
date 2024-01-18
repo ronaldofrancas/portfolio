@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 1rem;
+  width: 380px;
+  max-width: 100%;
+  padding: 1.5625rem;
+  border-radius: 1.5625rem;
+  border: 0.0625rem solid var(--color-white);
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > img {
+  width: 32px;
+  top: 1.0625rem;
+  right: 1.3125rem;
+  position: absolute;
+}
+
+.card > a {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.card > a:hover {
+  text-decoration: dashed;
+  color: var(--color-primary-hover);
+}

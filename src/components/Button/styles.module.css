@@ -1,12 +1,12 @@
 .button {
-  background-color: var(--color-primary);
   border-radius: 10px;
   padding: 1rem 2.5rem;
+  background-color: var(--color-primary);
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-    .button {
-        padding: 1rem;
-        width: 100%;
-    }
+  .button {
+    width: 100%;
+    padding: 1rem;
+  }
 }

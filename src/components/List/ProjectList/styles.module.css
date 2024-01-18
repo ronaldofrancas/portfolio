@@ -1,20 +1,25 @@
 .list {
   display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-  width: 50%;
+}
+
+.list > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .list {
-    width: 100%;
+  .list > div {
+    width: 250%;
     justify-content: center;
   }
 }
 
 @media (max-width: 768px) {
   .list {
-    width: 110%;
+    width: 50%;
     justify-content: center;
   }
 }
