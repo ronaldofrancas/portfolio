@@ -20,18 +20,16 @@ function AboutMeSection() {
 
         <div className={styles.container_right}>
           <p>
-            Sou estudante de programação e formado em Desenvolvimento Web Full
+            Sou estudante de programação formado em Desenvolvimento Web Full
             Stack pela Kenzie Academy Brasil, participei de diversos projetos
             resolvendo problemas de alto nível e adquiri habilidades técnicas e
-            comportamentais.
+            interpessoais.
           </p>
 
           <p>
-            Tenho um perfil caracterizado por uma abordagem equilibrada e
-            consistente no ambiente de trabalho, comprometido em buscar soluções
-            que contribuam positivamente para com pessoas e empresas. Possuo uma
-            forte capacidade de análise e valorizo precisão e qualidade em tudo
-            que me proponho a fazer.
+            Possuo um perfil caracterizado por uma abordagem equilibrada que
+            valoriza qualidade e consistência em suas atividades e almeja
+            contribuir no desenvolvimento de pessoas e empresas.
           </p>
         </div>
       </div>
