@@ -10,7 +10,7 @@ function AboutMeSection() {
 
           <Button backgroundColor="white">
             <a
-              href="https://drive.google.com/file/d/1X3w8kB_kkAbtCQiX5_OtRQwzx7irkBoD/view"
+              href="https://drive.google.com/file/d/1x47p9It8t_6AglOZy94LoyazUlV1zXEc/view"
               target="_blank"
             >
               Saiba Mais
