@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer id="footer" className={styles.footer}>
       <div>
-        <h2>Contatos</h2>
+        <h2>CONTATOS</h2>
 
         <div className={styles.images}>
           <a href="https://github.com/ronaldofrancas" target="_blank">

@@ -1,12 +1,9 @@
 .button {
   border-radius: 10px;
   padding: 1rem 2.5rem;
-  background-color: var(--color-primary);
+  background-color: var(--color-link);
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
-  .button {
-    width: 100%;
-    padding: 1rem;
-  }
+.button > a {
+  color: var(--color-black);
 }

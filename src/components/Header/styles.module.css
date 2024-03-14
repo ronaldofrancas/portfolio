@@ -27,6 +27,10 @@
   width: 40%;
 }
 
+.navigation > a {
+  font-size: 1.5em;
+}
+
 .navigation > a:hover {
   text-decoration: underline;
 }
@@ -50,11 +54,6 @@
 
   .navigation {
     width: 110%;
-  }
-}
-
-@media (min-width: 426px) {
-  .profile > span {
-    display: none;
+    flex-direction: column;
   }
 }

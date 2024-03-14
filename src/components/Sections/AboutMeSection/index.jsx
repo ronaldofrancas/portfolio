@@ -4,11 +4,11 @@ import Button from "../../Button";
 function AboutMeSection() {
   return (
     <section id="about" className={styles.section}>
-      <div className={styles.about}>
-        <div className={styles.container_left}>
-          <h2>Sobre Mim</h2>
+      <div className={styles.container}>
+        <div className={styles.about_top}>
+          <h2>SOBRE MIM</h2>
 
-          <Button backgroundColor="white">
+          <Button>
             <a
               href="https://drive.google.com/file/d/1x47p9It8t_6AglOZy94LoyazUlV1zXEc/view"
               target="_blank"
@@ -18,12 +18,11 @@ function AboutMeSection() {
           </Button>
         </div>
 
-        <div className={styles.container_right}>
+        <div className={styles.about_bottom}>
           <p>
-            Sou estudante de programação formado em Desenvolvimento Web Full
-            Stack pela Kenzie Academy Brasil, participei de diversos projetos
-            resolvendo problemas de alto nível e adquiri habilidades técnicas e
-            interpessoais.
+            Desenvolvedor Web Full Stack formado pela Kenzie Academy Brasil,
+            onde participei de diversos projetos resolvendo problemas de alto
+            nível e adquiri habilidades técnicas e interpessoais. 
           </p>
 
           <p>

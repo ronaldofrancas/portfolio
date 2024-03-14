@@ -8,7 +8,7 @@ function ProjectList() {
 
   return (
     <ul className={styles.list}>
-      <div>
+      <div className={styles.container}>
         <ProjectCard
           title={project1.title}
           repo={project1.repo}

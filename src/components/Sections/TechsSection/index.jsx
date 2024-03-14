@@ -5,7 +5,7 @@ function TechsSection() {
   return (
     <section id="techs" className={styles.section}>
       <div>
-        <h2>Tecnologias</h2>
+        <h2>TECNOLOGIAS</h2>
         <TechList />
       </div>
     </section>

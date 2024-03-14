@@ -1,22 +1,18 @@
-import styles from "./styles.module.css";
 import icon from "../../assets/icon/favicon.ico";
-
+import styles from "./styles.module.css";
 import Button from "../Button";
-
-import { user } from "../../data/user";
 
 function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.profile}>
         <img src={icon} alt="Foto de Perfil" />
-        <span>{user}</span>
       </div>
 
       <div className={styles.navigation}>
-        <a href="#about">Sobre Mim</a>
-        <a href="#techs">Tecnologias</a>
-        <a href="#projects">Projetos</a>
+        <a href="#about">SOBRE MIM</a>
+        <a href="#techs">TECNOLOGIAS</a>
+        <a href="#projects">PROJETOS</a>
       </div>
 
       <Button>

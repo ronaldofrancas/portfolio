@@ -5,7 +5,7 @@ function ProjectsSection() {
   return (
     <section id="projects" className={styles.section}>
       <div>
-        <h2>Projetos</h2>
+        <h2>PROJETOS</h2>
         <ProjectList />
       </div>
     </section>

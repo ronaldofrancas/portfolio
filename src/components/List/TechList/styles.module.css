@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  align-items: center;
+  justify-content: center;
   width: 50%;
 }
 
@@ -14,7 +16,7 @@
 
 @media (max-width: 768px) {
   .list {
-    width: 110%;
+    width: 90%;
     justify-content: center;
   }
 }
